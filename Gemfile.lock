@@ -172,6 +172,13 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.10.1)
+    libv8-node (24.12.0.1)
+    libv8-node (24.12.0.1-aarch64-linux)
+    libv8-node (24.12.0.1-aarch64-linux-musl)
+    libv8-node (24.12.0.1-arm64-darwin)
+    libv8-node (24.12.0.1-x86_64-darwin)
+    libv8-node (24.12.0.1-x86_64-linux)
+    libv8-node (24.12.0.1-x86_64-linux-musl)
     logger (1.6.6)
     loofah (2.24.0)
       crass (~> 1.0.2)
@@ -184,6 +191,8 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
+    mini_racer (0.21.0)
+      libv8-node (~> 24.12.0.1)
     minitest (5.25.4)
     msgpack (1.8.0)
     multipart-post (2.4.1)
@@ -354,6 +363,7 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder
+  mini_racer
   pg (~> 1.1)
   pg_search
   puma (>= 5.0)
